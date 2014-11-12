@@ -54,7 +54,7 @@ namespace AspNet.Identity.Dapper
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            db = null;
         }
 
         public IQueryable<TUser> Users
