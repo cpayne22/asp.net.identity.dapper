@@ -29,4 +29,4 @@ Enjoy!
 @christian_pyn
 
 
-[![Build status](https://ci.appveyor.com/api/projects/status/cl4yfh5vfrj9exq2?svg=true)](https://ci.appveyor.com/project/cpayne22/asp-net-identity-dapper)
+[![Build status](https://ci.appveyor.com/api/projects/status/f4jr87cd41owdjr5/branch/master?svg=true)](https://ci.appveyor.com/project/cpayne22/asp-net-identity-dapper/branch/master)
