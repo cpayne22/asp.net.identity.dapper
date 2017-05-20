@@ -116,7 +116,7 @@ namespace AspNet.Identity.Dapper.DB
             }
         }
 
-        public void UserSave(User user)
+        public virtual void UserSave(User user)
         {
             using (var cn = getCN())
             {
@@ -132,7 +132,7 @@ namespace AspNet.Identity.Dapper.DB
             }
         }
 
-        public User User(string userID, string email)
+        public virtual User User(string userID, string email)
         {
             using (var cn = getCN())
             {

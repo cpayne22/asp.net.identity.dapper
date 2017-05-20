@@ -21,10 +21,6 @@ Quick Start
 - Update the connection string in web.config
 
 
-Todo
------------
-- Because there is no lazy loading with Dapper, the framework does a LOT of database hits!  It needs caching or something to sort that out...
-
 Enjoy!
 @christian_pyn
 

@@ -13,7 +13,7 @@ namespace AspNet.Identity.Dapper.Web
         {
             if (db == null)
             {
-                db = new SQLDB();
+                db = new DapperMemoryCache();
             }
 
             return db;
